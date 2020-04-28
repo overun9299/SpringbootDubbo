@@ -1,0 +1,12 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: producer8001
+dubbo:
+  application:
+    name: dubbo_producer8001
+  scan:
+    base-packages: soap.service
+  registry:
+    address: zookeeper://127.0.0.1:2181

@@ -15,7 +15,7 @@
 
 * 防止zkServer.cmd闪退 - 编辑zkServer.cmd 在endLocal上添加pause
 * 修改 zoo_sample.cfg
-  # example sakes.
+  #example sakes.
   dataDir=D:\\zk\\apache-zookeeper-3.6.0-bin\\datas
   dataLogDir=D:\\zk\\apache-zookeeper-3.6.0-bin\\logs
   
